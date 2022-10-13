@@ -1,0 +1,217 @@
+body {
+    background-color: rgb(54, 49, 49);
+  }
+.wrapper{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+}
+.info{
+    width: 100%;
+    height: 40%;
+}
+.info h2{
+   /* padding: 30px 20px 20px ;*/
+    font-family: Arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+.info p{
+   /* padding: 100px 10px 10px 10px ;*/
+   padding-left: 100px;
+    font-family: Arial;
+    font-size: 16px;
+    color:black;
+    line-height:24px;  
+}
+.img-name{
+    width: 100%;
+    
+}
+.name h2 {
+    margin-left: 39%;
+    position: absolute;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: slidein;
+  }
+  
+  @-webkit-keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .name h3{
+    margin-left: 40%;
+    position: absolute;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: slidein;
+  }
+  
+  @-webkit-keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 5%;
+      width: 100%;
+    }
+  }
+.name h2,h3{
+    padding: 0px 30px 20px0;
+    background-color:gold;
+    line-height:24px;  
+}
+.school{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-school img{
+  width: 100%;
+}
+.college{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-college img{
+  width: 100%;
+}
+.fb{
+  width: 100%;
+}
+.fb #btn1{
+  border: none;
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 80px;
+}
+.instagram{
+  width: 100%;
+}
+.instagram #btn2{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 80px;
+  
+}
+.twitter{
+  width: 100%;
+}
+.twitter #btn3{
+   
+  border: none;
+  color: black;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 80px;
+  
+}
+.resume #btn4{
+   
+  border: none;
+  color: black;
+  padding: 15px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 80px;
+  
+}
+.img-extra img{
+  width: 100%;
+}
+.app-info{
+  width: 100%;
+  text-align: center;
+  font-size:40px;
+  animation-name: example;
+  animation-duration: 4s;
+
+}
+@keyframes example {
+  0%   {color: orangered;}
+  25%  {color: white;}
+  50%  {color: green;}
+  100% {color: yellow;}
+  100% {color: red;}
+  10% {color: black;}
+  10% {color: gold;}
+  10% {color: saddlebrown;}
+  10% {color: sandybrown;}
+  10% {color: tomato;}
+}
+.app {
+  width: 100%;
+  background-color: black;
+}
+
+.feedback #btn4 {
+  width: 200px;
+  margin-left: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  
+}
+@media only screen and(min-width:1000px) {
+  .wrapper{
+    width: 1000px;
+
+}
+  .info{
+    width: 50%;
+    float: right;
+}
+.info h2{
+   padding: 20px 0px 0px 30px ;
+
+}
+.info p{
+  padding: 20px 0px 0px 30px;
+
+}
+.img-name{
+  padding-top: 0px;
+  width: 50%;
+  float: left;
+}
+
+}
